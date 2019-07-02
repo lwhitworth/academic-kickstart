@@ -3,13 +3,18 @@
   <div class="container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="{{ "/" | relLangURL }}">
-        {{- if site.Params.logo -}}
-        <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
-        {{- else -}}
-        {{- site.Title -}}
-        {{- end -}}
-      </a>
+      <span>
+        <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+          {{- if site.Params.logo -}}
+          <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
+          {{- else -}}
+          {{- site.Title -}}
+          {{- end -}}
+        </a>
+        <button type="button" class="navbar-social" aria-expanded="false" >
+          <a href="https://www.facebook.com/ukkaratesurvey"><span><i class="fab fa-facebook"></i></span></a>
+        </button>
+      </span>
       {{ if or site.Menus.main .IsTranslated }}
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
@@ -103,7 +108,6 @@
           <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
         </li>
         {{ end }}
-
         {{ if .IsTranslated }}
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
@@ -121,9 +125,6 @@
           </ul>
         </li>
         {{ end }}
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/ukkaratesurvey"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-        </li>
         {{ if site.Params.day_night }}
         <li class="nav-item">
           <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
