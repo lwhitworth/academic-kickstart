@@ -39,7 +39,7 @@ title = "UK Karate Survey"
   icon_pack = "fas"
   icon = "poll"
 
-[cta]
+[cta_fb]
   url = "https://sourcethemes.com/academic/docs/install/"
   label = "Visit us on Facebook"
   icon_pack = "fas"
