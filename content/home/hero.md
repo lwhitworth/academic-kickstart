@@ -20,12 +20,12 @@ title = "UK Karate Survey"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
+  # gradient_start = "#4bb4e3"
+  # gradient_end = "#2b94c3"
   
   # Background image.
-  # image = ""  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "header.jpg"  # Name of image in `static/img/`.
+  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true
@@ -35,25 +35,10 @@ title = "UK Karate Survey"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Survey Coming Soon"
+  label = "Survey Launching Soon"
   icon_pack = "fas"
   icon = "poll"
 
-[cta_alt]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Visit us on Facebook"
-  icon_pack = "fas"
-  icon = "facebook"
-  
-<!-- [cta_alt]
-  url = "https://sourcethemes.com/academic/"
-  label = "View Documentation" -->
-
-# Note. An optional note to show underneath the links.
-<!-- [cta_note]
- label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest releaseV</a>' -->
 +++
 
-**Welcome to the inaugural year of the UK Karate Survey**
-
-<!-- <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span> -->
+Capturing the methods and practises in use in Karate clubs operating in the UK today

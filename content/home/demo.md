@@ -5,11 +5,11 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Academic Kickstart"
-subtitle = ""
+# title = "Welcome to the inaugural year of the **UK Karate Survey**"
+# subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -25,15 +25,15 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
+  # gradient_start = "DarkGreen"
+  # gradient_end = "ForestGreen"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -47,26 +47,22 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **Academic Kickstart** template!
+## About the survey
+There are a great number of Karate clubs operating in the UK training in different styles, as part of different associations under a number of different governing bodies. What there isn’t, to the best of my knowledge, is a single survey that attempts to capture the training methods and practises, the syllabus subjects and various other elements in use in these vast number of clubs.
 
-Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
+That is the gap that this survey is going to fill. It will be a snapshot of training as it exists in 2019. If successful the hope is to carry out the survey again every year to try and chart the continuing evolution of Karate practise in the UK.
 
-For inspiration, check out [the Markdown files](https://sourcethemes.com/academic/docs/install/#demo-content) which power the [personal demo](https://academic-demo.netlify.com/). The easiest way to publish your new site to the internet is with [Netlify](https://sourcethemes.com/academic/docs/deployment/).
+## What can I do to help?
+Simple, for this to be a success we need a large number of respondents representing as many Karate clubs / associations as possible. Where you come in is by helping to spread the word through your peers and wider. Karate students each have their own network of people they train with, people they interact with, people they chat with. Please help spread this as far and as wide as possible.
 
-- [View the documentation](https://sourcethemes.com/academic/docs/)
-- [Ask a question](http://discuss.gohugo.io/)
-- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
-- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- Support development of Academic:
-  - [Donate a coffee](https://paypal.me/cushen)
-  - [Become a backer on Patreon](https://www.patreon.com/cushen)
-  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - [Wear the T-shirt](https://academic.threadless.com/)
+## Is the survey anonymous?
+Absolutely. No personally identifiable information is collected. Where we ask for things like your age we have made the choices a range rather than a specific number. We are only interested in identify wider trends and nothing else.
 
-{{% alert note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
+## Will you be publishing the results?
+Most definitely! I want this survey to be a resource for all going forward so the results and raw data will be available to all that want it.
 
-Backgrounds can be applied to any section. Here, the *background* option is set give a *color gradient*.
+## Who is behind this?
+My name is Luke. I’m a karate student based in Bedfordshire and I have been training since 2003. Feel free to contact me using the form at the bottom of the page if you want to discuss the survey further.
 
-**To remove this section, delete `content/home/demo.md`.**
-{{% /alert %}}
+## Why are you doing this?
+In addition to the goals laid out earlier, as part of my next grading I have been tasked with writing an essay relating to Karate of my choosing. This is the start of that essay, I intend to write about the formation of this survey, how I publicised it and what the results were. I thank you all in advance for your help with this part of my grading.
