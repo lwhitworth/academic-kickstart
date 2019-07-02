@@ -34,8 +34,8 @@ title = "UK Karate Survey"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Survey Launching Soon"
+  url = "https://forms.gle/wJsWB9yqys8Qkhe49"
+  label = "Complete The Survey"
   icon_pack = "fas"
   icon = "poll"
 
