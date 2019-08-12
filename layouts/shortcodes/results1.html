@@ -4,19 +4,30 @@
 document.addEventListener('DOMContentLoaded', function () {
     Highcharts.chart('container', {
         chart: {
-            type: 'column'
-        },
-        data: {
-            // enablePolling: true,
-            csvURL: window.location.origin + '/data/data.csv'
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
         },
         title: {
-            text: 'Fruit Consumption'
+            text: 'Age'
         },
-        yAxis: {
-            title: {
-                text: 'Units'
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                }
             }
+        },
+        data: {
+                // enablePolling: true,
+                csvURL: window.location.origin + '/data/data.csv'
         }
     });
 });
