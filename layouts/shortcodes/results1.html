@@ -1,1 +1,23 @@
-test
+<div id="container" style="width:100%; height:400px;"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    Highcharts.chart('container', {
+        chart: {
+            type: 'column'
+        },
+        data: {
+            // enablePolling: true,
+            csvURL: window.location.origin + '/data/data.csv'
+        },
+        title: {
+            text: 'Fruit Consumption'
+        },
+        yAxis: {
+            title: {
+                text: 'Units'
+            }
+        }
+    });
+});
+</script>
