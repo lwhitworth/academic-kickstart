@@ -1,34 +1,23 @@
-<div id="container" style="width:100%; height:400px;"></div>
+<canvas id="doughnut-chart" width="800" height="450"></canvas>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    Highcharts.chart('container', {
-        chart: {
-            plotBackgroundColor: null,
-            plotBorderWidth: null,
-            plotShadow: false,
-            type: 'pie'
-        },
-        title: {
-            text: 'Age'
-        },
-        tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-        },
-        plotOptions: {
-            pie: {
-                allowPointSelect: true,
-                cursor: 'pointer',
-                dataLabels: {
-                    enabled: true,
-                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
-                }
-            }
-        },
+    new Chart(document.getElementById("doughnut-chart"), {
+        type: 'doughnut',
         data: {
-                // enablePolling: true,
-                csvURL: window.location.origin + '/data/data.csv'
+        labels: ["Under 18", "18 - 25", "25 - 35", "35 - 45", "45 - 55", "55 - 64", "65 and over"],
+        datasets: [
+            {
+            label: "Count",
+            backgroundColor: ["#a19ad1", "#8fc2df","#c2e0ae","#efefa8","#edcb9c","#d99ca5","#9bd9d9"],
+            data: [9,30,48,103,138,52,10]
+            }
+        ]
+        },
+        options: {
+        title: {
+            display: true,
+            text: 'Age'
+        }
         }
     });
-});
 </script>
