@@ -1,60 +1,28 @@
-<canvas id="age-doughnut-chart" width="800" height="450"></canvas>
-<script>
-    new Chart(document.getElementById("age-doughnut-chart"), {
-        type: 'doughnut',
-        data: {
-        labels: ["Under 18", "18 - 25", "25 - 35", "35 - 45", "45 - 55", "55 - 64", "65 and over"],
-        datasets: [
-            {
-            label: "Count",
-            backgroundColor: ["#a19ad1", "#8fc2df","#c2e0ae","#efefa8","#edcb9c","#d99ca5","#9bd9d9"],
-            data: [9,30,48,103,138,52,10]
-            }
-        ]
-        },
-        options: {
-        title: {
-            display: true,
-            text: 'Age'
-        },
-        legend: {
-            display: true,
-            position: 'right'
-        }
-        }
-    });
+<div id="piechart" style="width: 900px; height: 500px;"></div>
+
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+        ['Age', 'Count'],
+        ['Under 18',9],
+        ['18-25',30],
+        ['25-35',48],
+        ['35-45',103],
+        ['45-55',138],
+        ['55-64',52],
+        ['65 and over',10]
+    ]);
+
+    var options = {
+        title: 'Age'
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+    chart.draw(data, options);
+    }
 </script>
-<hr/>
-<canvas id="location-doughnut-chart" width="800" height="450"></canvas>
-<script>
-    new Chart(document.getElementById("location-doughnut-chart"), {
-        type: 'doughnut',
-        data: {
-        labels: ["East Midlands", "East of England", "Greater London", "North East", "North West", "Northern Ireland", "Scotland", "South East", "South West", "Wales", "West Midlands", "Yorkshire and the Humber", "Rather not say"],
-        datasets: [
-            {
-            label: "Count",
-            backgroundColor: ["#a19ad1", "#8fc2df","#c2e0ae","#efefa8","#edcb9c","#d99ca5","#9bd9d9"],
-            data: [21,34,22,19,32,6,31,80,48,31,33,27,6]
-            }
-        ]
-        },
-        options: {
-        title: {
-            display: true,
-            text: 'Location'
-        },
-        legend: {
-            display: true,
-            position: 'right'
-        }
-        }
-    });
-</script>
-
-
-
-
-
-
-
