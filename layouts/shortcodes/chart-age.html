@@ -1,0 +1,22 @@
+<script type="text/javascript">
+    function drawAgeResults() {
+        var data = google.visualization.arrayToDataTable([
+            ['Age', 'Count'],
+            ['Under 18',9],
+            ['18-25',30],
+            ['25-35',48],
+            ['35-45',103],
+            ['45-55',138],
+            ['55-64',52],
+            ['65 and over',10]
+        ]);
+
+        var options = {
+            title: 'Age'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('age'));
+
+        chart.draw(data, options);
+    }
+</script>

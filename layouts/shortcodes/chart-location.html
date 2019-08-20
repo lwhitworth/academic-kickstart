@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    function drawLocationResults() {
+        var data = google.visualization.arrayToDataTable([
+            ['Location', 'Count'],
+            ['East Midlands',21],
+            ['East of England',34],
+            ['Greater London',22],
+            ['North East',19],
+            ['North West',32],
+            ['Northern Ireland',6],
+            ['Scotland',31],
+            ['South East',80],
+            ['South West',48],
+            ['Wales',31],
+            ['West Midlands',33],
+            ['Yorkshire and the Humber',27],
+            ['Rather not say',6]
+        ]);
+
+        var options = {
+            title: 'Location',
+            chartArea: {width: '50%'},
+            hAxis: {
+                title: 'Count',
+                minValue: 0
+            },
+            legend: { position: "none" }
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('location'));
+
+        chart.draw(data, options);
+        }
+</script>
+
+
