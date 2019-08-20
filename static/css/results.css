@@ -52,6 +52,12 @@ h1 {
 	display: table-cell;
 	padding: 3px 10px;
 }
+.divTableCellCount {
+	border: 1px solid #999999;
+	display: table-cell;
+    padding: 3px 10px;
+    text-align: right;
+}
 .divTableHead {
 	border: 1px solid #999999;
 	display: table-cell;
