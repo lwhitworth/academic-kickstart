@@ -11,9 +11,9 @@ title = "Results"
 
 |                                                                                        |                                  |
 | -------------------------------------------------------------------------------------- | -------------------------------- |
-| **Age**                                                                                |                                  |
+| **1. Age**                                                                             |                                  |
 | <div id="age" style="width: 500px; height: 400px; display: inline-block"></div>        | {{< table-age >}}                |
-| **Location**                                                                           |                                  |
+| **2. Location**                                                                        |                                  |
 | <div id="age" style="width: 400px; height: 300px; display: inline-block"></div>        | {{< table-age >}}                |
 
 {{< google-js >}}
