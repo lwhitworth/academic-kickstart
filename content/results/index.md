@@ -19,7 +19,7 @@ title: Results
 
 **Grade** 
 <div id="grade" style="width: 100%; height: 430px; display: block; width: auto; margin: 0 auto !important;"></div>
-<div style="font-size: 14px;">`N.B. Multiple selections were allowed, so results are greater than number of respondents`</div>
+<div style="font-size: 14px;">`N.B. Multiple selections were allowed, so total results are greater than number of respondents`</div>
 {{< table-grade >}}
 
 {{< google-js >}}
