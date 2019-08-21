@@ -8,17 +8,18 @@ title = "Results"
 
 {{< chart-age >}}
 {{< chart-location >}}
+{{< chart-grade >}}
 
 **Age**
-<div class="wrapper">
-    <div id="one"><div id="age" style="width: 500px; height: 350px; display: inline-block"></div></div>
-    <div id="two">{{< table-age >}}</div>
-</div>
+<div id="age" style="height: 100%; height: 350px; display: block; width: auto; margin: 0 auto !important;"></div>
+{{< table-age >}}
 
 **Location**
-<div class="wrapper">
-    <div id="one"><div id="location" style="width: 500px; height: 700px; display: inline-block"></div></div>
-    <div id="two">{{< table-location >}}</div>
-</div>
+<div id="location" style="width: 100%; height: 500px; display: block; width: auto; margin: 0 auto !important;"></div>
+{{< table-location >}}
+
+**Grade**
+<div id="grade" style="width: 100%; height: 430px; display: block; width: auto; margin: 0 auto !important;"></div>
+{{< table-grade >}}
 
 {{< google-js >}}

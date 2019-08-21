@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    function drawGradeResults() {
+        var data = google.visualization.arrayToDataTable([
+            ['Role', 'Count'],
+            ['Assistant club instructor',79],
+            ['Association Head / Chief Instructor',66],
+            ['Club instructor',100],
+            ['Student',192],
+            ['Independent examiner visiting instructor',1],
+            ['Instructor in absentia: not currently teaching',1],
+            ['Joint founder & grading panel member',1],
+            ['Program Director',1],
+            ['Retired through injury',1],
+            ['Ronin Instructor. Tend to fill in and do private lessons',1],
+            ['Secretary',1],
+            ['Shibu cho',1],
+            ['Student but also teach a bit',1]
+        ],);
+
+        var options = {
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('grade'));
+
+        chart.draw(data, options);
+    }
+</script>
