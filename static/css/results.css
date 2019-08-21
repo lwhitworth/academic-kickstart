@@ -62,6 +62,13 @@ h1 {
     font-weight: bold;
     background-color: #CCC;
 }
+.divTableHeadCount {
+	display: table-cell;
+    padding: 3px 10px;
+    font-weight: bold;
+    background-color: #CCC;
+    text-align: right;
+}
 .divTableFoot {
 	background-color: #EEE;
 	display: table-footer-group;
