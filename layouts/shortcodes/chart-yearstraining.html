@@ -1,5 +1,24 @@
-0-10	125
-10-20	112
-20-30	74
-30-40	53
-40+	26
+<script type="text/javascript">
+    function drawYearsTrainingResults() {
+        var data = google.visualization.arrayToDataTable([
+            ['Years', 'Count'],
+            ['0-10',125],
+            ['10-20',112],
+            ['20-30',74],
+            ['30-40',53],
+            ['45+',26]
+        ]);
+
+        var options = {
+            chartArea: {width: '50%'},
+            hAxis: {
+                minValue: 0
+            },
+            legend: { position: "none" }
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('yearstraining'));
+
+        chart.draw(data, options);
+    }
+</script>
