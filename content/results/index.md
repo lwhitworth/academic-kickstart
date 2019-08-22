@@ -4,6 +4,8 @@ title: Results
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">google.charts.load('current', {'packages':['corechart','bar']});</script>
 
+# Results
+
 #### Age
 {{< chart-age >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawAgeResults);</script>
