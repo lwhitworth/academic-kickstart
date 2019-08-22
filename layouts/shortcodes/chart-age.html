@@ -12,9 +12,14 @@
         ]);
 
         var options = {
+            chartArea: {width: '50%'},
+            hAxis: {
+                minValue: 0
+            },
+            legend: { position: "none" }
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('age'));
+        var chart = new google.visualization.ColumnChart(document.getElementById('age'));
 
         chart.draw(data, options);
     }
