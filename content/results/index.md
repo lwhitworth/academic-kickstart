@@ -6,8 +6,6 @@ title: Results
 
 # Results
 
-***
-
 #### Age
 {{< chart-age >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawAgeResults);</script>
