@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    function drawKarateStyleCountResults() {
+        var data = google.visualization.arrayToDataTable([
+            ['Response', 'Count'],
+            ['Shotokan',167],
+            ['Wado-Ryu',78],
+            ['Goju-Ryu',35],
+            ['Shito-Ryu',21],
+            ['Go Kan Ryu',11],
+            ['Kyokushin',10],
+            ['Tang Soo Do',9],
+            ['Shukokai',9],
+            ['Shukokai ',7],
+            ['Gkr',5],
+            ['Freestyle Karate ',4],
+            ['Sankukai',2],
+            ['Other',32]
+        ],);
+
+        var options = {
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('karatestylecount'));
+
+        chart.draw(data, options);
+    }
+</script>

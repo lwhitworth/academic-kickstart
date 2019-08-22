@@ -78,3 +78,25 @@ title: Results
 {{< table-otherartscount >}}
 
 {{% text-otherarts %}}
+
+***
+
+#### What style of karate did you begin your learning in?
+{{< chart-karatestylecount >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawKarateStyleCountResults);</script>
+<div id="karatestylecount" style="width: 100%; height: 430px; display: block; width: auto; margin: 0 auto !important;"></div>
+{{< table-karatestylecount >}}
+
+{{% text-karatestylecount %}}
+
+***
+
+#### Why did you pick this style?
+{{< chart-stylepickcount >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawStylePickCountResults);</script>
+<div id="stylepick" style="width: 100%; height: 430px; display: block; width: auto; margin: 0 auto !important;"></div>
+{{< table-stylepickcount >}}
+
+{{% text-stylepickcount %}}
+
+***
