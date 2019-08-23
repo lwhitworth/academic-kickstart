@@ -1,0 +1,91 @@
+h1 {
+    border-top: 20px;
+}
+
+.wrapper { 
+    overflow:hidden;
+}
+
+.wrapper div {
+    min-height: 200px;
+}
+#one {
+    float:left; 
+    margin-right:20px;
+    width:500px;
+}
+#two {  
+    overflow:hidden;
+    margin:10px;
+    padding-top:20px;
+    min-height:170px;
+}
+
+@media screen and (max-width: 575px) {
+    #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;   
+    }
+}
+
+/* DivTable.com */
+.divTable{
+	display: table;
+    width: 100%;
+    font-size: 16px;
+}
+.divTableRow {
+    display: table-row;
+}
+.divTableRowAlt {
+    display: table-row;
+    background-color: #CCC;
+}
+.divTableHeading {
+	background-color: #EEE;
+    display: table-header-group;
+}
+.divTableCell {
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableCellCount {
+	display: table-cell;
+    padding: 3px 10px;
+    text-align: right;
+}
+.divTableHead {
+	display: table-cell;
+    padding: 3px 10px;
+    font-weight: bold;
+    background-color: #CCC;
+}
+.divTableHeadCount {
+	display: table-cell;
+    padding: 3px 10px;
+    font-weight: bold;
+    background-color: #CCC;
+    text-align: right;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+div.chart_div table {
+    width: auto;
+    margin: 0 auto !important;
+}
