@@ -8,15 +8,42 @@ title: Results
 
 #### Age
 
-{{< test >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawGID);</script>
-<div id="ageageage" class="chart" style="display: block; margin: 0 auto !important;"></div>
-{{< table-test >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawGIDtable);</script>
-<div id="tabletabletable" class="chart" style="display: block; margin: 0 auto !important;"></div>
+{{< age-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartAge);</script>
+<div id="chart-age" class="chart"></div>
+{{< age-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableAge);</script>
+<div id="table-age" class="table"></div>
+
+***
 
 #### Location
 
-{{< test2 >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawGID2);</script>
-<div id="locationlocation" class="chart" style="display: block; width: auto; margin: 0 auto !important;"></div>
+{{< location-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartLocation);</script>
+<div id="chart-location" class="chart"></div>
+{{< location-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableLocation);</script>
+<div id="table-location" class="table"></div>
+
+***
+
+#### Grade
+
+{{< grade-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartGrade);</script>
+<div id="chart-grade" class="chart"></div>
+{{< grade-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableGrade);</script>
+<div id="table-grade" class="table"></div>
+
+***
+
+#### Number of years training
+
+{{< yearstraining-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartYearsTraining);</script>
+<div id="chart-yearstraining" class="chart"></div>
+{{< yearstraining-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableYearsTraining);</script>
+<div id="table-yearstraining" class="table"></div>
