@@ -12,8 +12,10 @@ title: Results
 <script type="text/javascript">google.charts.setOnLoadCallback(drawChartAge);</script>
 <div id="chart-age" class="chart"></div>
 {{< age-table >}}
+<div class="table-container">
 <script type="text/javascript">google.charts.setOnLoadCallback(drawTableAge);</script>
 <div id="table-age" class="table"></div>
+</div>
 
 ***
 

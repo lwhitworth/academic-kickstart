@@ -12,6 +12,11 @@ h1 {
     display: inline-block; 
     margin: 0 auto !important;
     text-align: center;
+    width: 100% !important;
+}
+
+#table-age {
+    width: 100% !important;
 }
 
 .google-visualization-table-tr-head {
@@ -19,4 +24,6 @@ h1 {
 }
 .google-visualization-table {
     text-align: left;
+    display: inline-block;
+    width: 100% !important;
 }
