@@ -85,7 +85,7 @@ title: Results
 
 ***
 
-### Style
+### What style of karate did you begin your learning in?
 
 {{< Style-chart >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawChartStyle);</script>
@@ -95,3 +95,27 @@ title: Results
 <div id="table-Style" class="table"></div>
 
 {{% Style-text %}}
+
+***
+
+### Why did you pick this style?
+
+{{< PickKarateStyle-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartPickKarateStyle);</script>
+<div id="chart-PickKarateStyle" class="chart"></div>
+{{< PickKarateStyle-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTablePickStyle);</script>
+<div id="table-PickStyle" class="table"></div>
+{{% note-text %}}
+{{% PickKarateStyle-text %}}
+
+***
+
+### Did you research into alternative styles before settling on this one?
+
+{{< Research-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartResearch);</script>
+<div id="chart-Research" class="chart"></div>
+{{< Research-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableResearch);</script>
+<div id="table-Research" class="table"></div>
