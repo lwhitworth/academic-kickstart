@@ -47,3 +47,51 @@ title: Results
 {{< yearstraining-table >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawTableYearsTraining);</script>
 <div id="table-yearstraining" class="table"></div>
+
+***
+
+### On average, how many times a week do you train in the dojo?
+
+{{< TimesTraining-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartTimesTraining);</script>
+<div id="chart-TimesTraining" class="chart"></div>
+{{< TimesTraining-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableTimesTraining);</script>
+<div id="table-TimesTraining" class="table"></div>
+
+***
+
+### Do you practise outside the dojo / at home?
+
+{{< TrainHome-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartTrainHome);</script>
+<div id="chart-TrainHome" class="chart"></div>
+{{< TrainHome-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableTrainHome);</script>
+<div id="table-TrainHome" class="table"></div>
+
+***
+
+### Do you train in any other Martial Arts?
+
+{{< TrainOthers-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartTrainOthers);</script>
+<div id="chart-TrainOthers" class="chart"></div>
+{{< TrainOthers-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableTrainOthers);</script>
+<div id="table-TrainOthers" class="table"></div>
+
+{{% OtherArts-text %}}
+
+***
+
+### Style
+
+{{< Style-chart >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawChartStyle);</script>
+<div id="chart-Style" class="chart"></div>
+{{< Style-table >}}
+<script type="text/javascript">google.charts.setOnLoadCallback(drawTableStyle);</script>
+<div id="table-Style" class="table"></div>
+
+{{% Style-text %}}
