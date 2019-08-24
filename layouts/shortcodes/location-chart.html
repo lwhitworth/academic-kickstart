@@ -13,14 +13,13 @@
         var data = response.getDataTable();
 
         var options = {
-            chartArea: {width: '75%'},
             hAxis: {
                 minValue: 0
             },
             legend: { position: "none" }
         };
 
-        var chart = new google.visualization.ColumnChart(document.getElementById('chart-location'));
+        var chart = new google.visualization.BarChart(document.getElementById('chart-location'));
 
         chart.draw(data, options);
     }
