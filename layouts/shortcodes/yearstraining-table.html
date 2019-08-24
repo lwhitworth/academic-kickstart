@@ -11,9 +11,9 @@
         }
 
         var data = response.getDataTable();
-        data.setProperty(0, 0, 'style', 'width:100%');
-        data.setProperty(0, 1, 'style', 'width:20%');
-
+        data.setProperty(0, 0, 'style', 'width:100%; min-width:500px');
+        data.setProperty(0, 1, 'style', 'width:100%; min-width:50px');
+        
         var options = {
             showRowNumber: false,
             allowHtml: true

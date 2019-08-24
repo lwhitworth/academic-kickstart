@@ -9,6 +9,17 @@ h1 {
 }
 
 .table {
-    display: block; 
+    display: inline-block; 
     margin: 0 auto !important;
+    width: 100%;
+    text-align: center;
+}
+
+.google-visualization-table-tr-head {
+    text-align: left;
+}
+.google-visualization-table {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
 }
