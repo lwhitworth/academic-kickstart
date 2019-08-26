@@ -9,7 +9,7 @@ title: Results (Page 2)
 
 ***
 
-### Broadly, is your grading syllabusChange traditional,  or would you say it is more applied / application based?
+### Broadly, is your grading syllabus traditional, or would you say it is more applied / application based?
 
 {{< PracticalApplied-chart >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawChartPracticalApplied);</script>
