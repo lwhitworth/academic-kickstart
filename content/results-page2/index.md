@@ -6,7 +6,7 @@ title: Results (Page 2)
 
 # Results
 <span class="nav">
-[Page 1](../results-page1)&nbsp; | Page 2&nbsp; | &nbsp;[Page 3](../results-page3)
+[Page 1](../results-page1)&nbsp; | &nbsp;Page 2&nbsp; | &nbsp;[Page 3](../results-page3)&nbsp; | &nbsp;![Google Sheets](/img/Google_Sheets_Logo.jpg "Google Sheets") &nbsp;[View Full Results](https://docs.google.com/spreadsheets/d/1jM0hVJggREtr2Umiv_HeVfV9A7Q_t_kIJm3d7wKiHzg/edit?usp=sharing)
 </span>
 ***
 
@@ -131,5 +131,5 @@ title: Results (Page 2)
 ***
 
 <span class="nav">
-[Page 1](../results-page1)&nbsp; | Page 2&nbsp; | &nbsp;[Page 3](../results-page3)
+[Page 1](../results-page1)&nbsp; | &nbsp;Page 2&nbsp; | &nbsp;[Page 3](../results-page3)&nbsp; | &nbsp;![Google Sheets](/img/Google_Sheets_Logo.jpg "Google Sheets") &nbsp;[View Full Results](https://docs.google.com/spreadsheets/d/1jM0hVJggREtr2Umiv_HeVfV9A7Q_t_kIJm3d7wKiHzg/edit?usp=sharing)
 </span>
