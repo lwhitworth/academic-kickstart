@@ -47,7 +47,7 @@ title: Results (Page 2)
 
 {{< TrainingMethods-chart >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawChartTrainingMethods);</script>
-<div id="chart-TrainingMethods" class="chart"></div>
+<div id="chart-TrainingMethods" class="chart-large"></div>
 {{< TrainingMethods-table >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawTableTrainingMethods);</script>
 <div id="table-TrainingMethods" class="table"></div>
@@ -71,7 +71,7 @@ title: Results (Page 2)
 
 {{< ProtectionElements-chart >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawChartProtectionElements);</script>
-<div id="chart-ProtectionElements" class="chart"></div>
+<div id="chart-ProtectionElements" class="chart-large"></div>
 {{< ProtectionElements-table >}}
 <script type="text/javascript">google.charts.setOnLoadCallback(drawTableProtectionElements);</script>
 <div id="table-ProtectionElements" class="table"></div>
