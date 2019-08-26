@@ -4,9 +4,10 @@ title: Results (Page 3)
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">google.charts.load('current', {'packages':['corechart','bar','table']});</script>
 
-# Results 
-## Page 3
-
+# Results
+<span class="nav">
+[Page 1](../results-page1)&nbsp; | &nbsp;[Page 2](../results-page2)&nbsp; | &nbsp;Page 3
+</span>
 ***
 
 ### Do you partake in any of the following?
@@ -115,3 +116,9 @@ title: Results (Page 3)
 <div id="table-ReadBooks" class="table"></div>
 
 {{% ReadBooks-text %}}
+
+***
+
+<span class="nav">
+[Page 1](../results-page1)&nbsp; | &nbsp;[Page 2](../results-page2)&nbsp; | &nbsp;Page 3
+</span>

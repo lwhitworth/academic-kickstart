@@ -16,10 +16,10 @@
             hAxis: {
                 minValue: 0
             },
-            legend: { position: "right" }
+            legend: { position: "none" }
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('chart-yearstraining'));
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart-yearstraining'));
 
         chart.draw(data, options);
     }

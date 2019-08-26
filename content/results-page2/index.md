@@ -4,9 +4,10 @@ title: Results (Page 2)
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">google.charts.load('current', {'packages':['corechart','bar','table']});</script>
 
-# Results 
-## Page 2
-
+# Results
+<span class="nav">
+[Page 1](../results-page1)&nbsp; | Page 2&nbsp; | &nbsp;[Page 3](../results-page3)
+</span>
 ***
 
 ### Broadly, is your grading syllabus traditional, or would you say it is more applied / application based?
@@ -126,3 +127,9 @@ title: Results (Page 2)
 <div id="table-ElementsChange" class="table"></div>
 
 {{% ElementsChange-text %}}
+
+***
+
+<span class="nav">
+[Page 1](../results-page1)&nbsp; | Page 2&nbsp; | &nbsp;[Page 3](../results-page3)
+</span>

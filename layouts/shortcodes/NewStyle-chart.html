@@ -16,10 +16,10 @@
             hAxis: {
                 minValue: 0
             },
-            legend: { position: "right" }
+            legend: { position: "none" }
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('chart-NewStyle'));
+        var chart = new google.visualization.BarChart(document.getElementById('chart-NewStyle'));
 
         chart.draw(data, options);
     }

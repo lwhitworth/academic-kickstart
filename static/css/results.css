@@ -31,3 +31,7 @@ h1 {
 .text_list {
     font-size: 14px !important;
 }   
+
+span.nav {
+    font-size: 14px;
+}

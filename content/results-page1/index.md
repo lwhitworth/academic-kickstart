@@ -5,7 +5,10 @@ title: Results (Page 1)
 <script type="text/javascript">google.charts.load('current', {'packages':['corechart','bar','table']});</script>
 
 # Results
-## Page 1
+<span class="nav">
+Page 1 | &nbsp;[Page 2](../results-page2)&nbsp; | &nbsp;[Page 3](../results-page3)
+</span>
+***
 
 #### Age
 
@@ -157,3 +160,9 @@ title: Results (Page 1)
 <div id="table-NewStyleFactors" class="table"></div>
 {{% note-text %}}
 {{% NewStyleFactors-text %}}
+
+***
+
+<span class="nav">
+Page 1 | &nbsp;[Page 2](../results-page2)&nbsp; | &nbsp;[Page 3](../results-page3)
+</span>
