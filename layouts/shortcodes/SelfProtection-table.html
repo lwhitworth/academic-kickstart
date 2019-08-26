@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    function drawTableSelfProtection() {
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1ARbWwIZzN9dd3Nwfzt8Qp2hzZ2Khaq_tfU0nW1pHG74/gviz/tq?gid=1067944612&sheet=PTSelfProtection');
+        query.send(drawSelfProtectionTabResults);
+    }
+
+    function drawSelfProtectionTabResults(response) {
+        if (response.isError()) {
+        alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+        return;
+        }
+
+        var data = response.getDataTable();
+        data.setProperty(0, 0, 'style', 'width:100%; min-width:200px');
+        data.setProperty(0, 1, 'style', 'width:100%; min-width:50px');
+
+        var options = {
+            showRowNumber: false,
+            allowHtml: true
+        }
+
+        var table = new google.visualization.Table(document.getElementById('table-SelfProtection'));
+
+        table.draw(data, options);
+    }
+</script>

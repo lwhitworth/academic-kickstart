@@ -27,3 +27,7 @@ h1 {
     display: inline-block;
     width: 100% !important;
 }
+
+.text_list {
+    font-size: 14px !important;
+}   

@@ -1,10 +1,10 @@
 <script type="text/javascript">
-    function drawChartReadBooks() {
-        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1ARbWwIZzN9dd3Nwfzt8Qp2hzZ2Khaq_tfU0nW1pHG74/gviz/tq?gid=1067944612&sheet=PTReadBooks');
-        query.send(drawReadBooksResults);
+    function drawChartVideosPublic() {
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1ARbWwIZzN9dd3Nwfzt8Qp2hzZ2Khaq_tfU0nW1pHG74/gviz/tq?gid=1067944612&sheet=PTVideosPublic');
+        query.send(drawVideosPublicResults);
     }
 
-    function drawReadBooksResults(response) {
+    function drawVideosPublicResults(response) {
         if (response.isError()) {
         alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
         return;
@@ -19,7 +19,7 @@
             legend: { position: "right" }
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('chart-ReadBooks'));
+        var chart = new google.visualization.PieChart(document.getElementById('chart-VideosPublic'));
 
         chart.draw(data, options);
     }

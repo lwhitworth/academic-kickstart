@@ -1,10 +1,11 @@
 ---
-title: Results
+title: Results (Page 1)
 ---
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">google.charts.load('current', {'packages':['corechart','bar','table']});</script>
 
 # Results
+## Page 1
 
 #### Age
 
@@ -156,48 +157,3 @@ title: Results
 <div id="table-NewStyleFactors" class="table"></div>
 {{% note-text %}}
 {{% NewStyleFactors-text %}}
-
-***
-
-### Broadly, is your grading syllabus traditional,  or would you say it is more applied / application based?
-
-{{< PracticalApplied-chart >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawChartPracticalApplied);</script>
-<div id="chart-PracticalApplied" class="chart"></div>
-{{< PracticalApplied-table >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawTablePracticalApplied);</script>
-<div id="table-PracticalApplied" class="table"></div>
-
-***
-
-### From what age are students accepted in your club?
-
-{{< AgeStart-chart >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawChartAgeStart);</script>
-<div id="chart-AgeStart" class="chart"></div>
-{{< AgeStart-table >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawTableAgeStart);</script>
-<div id="table-AgeStart" class="table"></div>
-
-***
-
-### Does your club / association teach adults and children separately?
-
-{{< Separate-chart >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawChartSeparate);</script>
-<div id="chart-Separate" class="chart"></div>
-{{< Separate-table >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawTableSeparate);</script>
-<div id="table-Separate" class="table"></div>
-
-***
-
-### Which of the following training methods do you teach, which appear on your grading syllabus and which do you train personally?
-
-{{< TrainingMethods-chart >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawChartTrainingMethods);</script>
-<div id="chart-TrainingMethods" class="chart"></div>
-{{< TrainingMethods-table >}}
-<script type="text/javascript">google.charts.setOnLoadCallback(drawTableTrainingMethods);</script>
-<div id="table-TrainingMethods" class="table"></div>
-{{% TrainingMethods-text %}}
