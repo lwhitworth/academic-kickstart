@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    function drawChartTrainingMethods() {
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1ARbWwIZzN9dd3Nwfzt8Qp2hzZ2Khaq_tfU0nW1pHG74/gviz/tq?gid=1067944612&sheet=PTTrainingMethods');
+        query.send(drawTrainingMethodsResults);
+    }
+
+    function drawTrainingMethodsResults(response) {
+        if (response.isError()) {
+        alert('Error in query: ' + response.getMessTrainingMethods() + ' ' + response.getDetailedMessTrainingMethods());
+        return;
+        }
+
+        var data = response.getDataTable();
+
+        var options = {
+            hAxis: {
+                minValue: 0
+            },
+            legend: { position: "none" },
+            isStacked: true
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart-TrainingMethods'));
+
+        chart.draw(data, options);
+    }
+</script>
