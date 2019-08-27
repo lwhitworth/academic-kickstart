@@ -1,6 +1,7 @@
 <script type="text/javascript">
     function drawChartElementsChange() {
         var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1ARbWwIZzN9dd3Nwfzt8Qp2hzZ2Khaq_tfU0nW1pHG74/gviz/tq?gid=1067944612&sheet=PTElementsChange');
+        query.setQuery('select A, B');
         query.send(drawElementsChangeResults);
     }
 
